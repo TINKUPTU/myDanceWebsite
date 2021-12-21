@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+h1{
+    text-align: center;
+    margin: 10px 0px;
+    width: 50%;
+    font-size: 26px;
+    /* border: 3px solid rgb(205, 94, 50); */
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    /* border: 3px solid yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 60%; */
+    margin: 12px 0 38px 0;
+    min-height: 65vh;
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+    box-shadow:0px 0px 20px 0px rgba(85, 85, 85, 0.514);
+    padding-top: 10px;
+    padding-bottom: 25px;
+    width: 50%;
+    /* border: 3px solid rgb(97, 50, 205); */
+}
+.Input{
+    width: 50%;
+    margin: 9px;
+    padding: 6px;
+    /* text-align: center; */
+    font-size: 17px;
+    border: 1px solid rgb(218, 94, 94);
+    border-radius: 9px;
+    font-family: 'Playfair Display', serif;
+
+}
+#btn{
+    margin-top: 9px;
+    padding: 4px 13px;
+    /* border: 1px solid red; */
+    background-color:red ;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    /* border: 1px solid rgb(236, 26, 26); */
+}
+#btn:hover{
+    background-color:brown;
+}

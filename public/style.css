@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Merriweather:wght@700&display=swap');
+/* #####reseting##### */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+/* body{
+    font-family: 'Merriweather', serif;
+    line-height: 1.7;      
+} */
+/* #####navbar styling##### */
+
+#navbar{
+background-color: rgb(255, 0, 76);
+padding: 16px;
+font-family: 'Merriweather', serif;
+    /* line-height: 1.7;    */
+width: 100vw;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+
+}
+#navbar li{
+    list-style: none;
+    margin: 0px 25px;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.8em;
+    padding: 6px 14px;
+    letter-spacing: 0.13em;  
+}
+#navbar li a:hover{
+    /* cursor: pointer; */
+    text-decoration: underline;
+    color: black;
+    background-color: white;
+    border: 0px solid gray;
+    border-radius: 0.9em;   
+}
+
+/* #####introSection styling##### */
+
+#introSection{
+    color: #f4f4f4;;
+    height: 500px;
+    background: center/cover no-repeat url('/public/image/bg1.jpg'); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arvo', serif;
+    font-size: 1.8em;
+    /* opacity: 0.8;   */
+    padding-bottom: 4em; 
+}
+#introSection div#big{
+    font-size: 1.8em; 
+    margin-bottom: 0.8em;  
+}
+#introSection div#small{
+    font-size: 1.6em;   
+}
+#introSection div#vsmall{
+    font-size: 1.4em;   
+}
+#introSection div#vvsmall{
+    font-size: 1.2em;   
+}
+
+/* #####missionSection styling##### */
+
+#missionSection{
+  /* height: 400px;   */
+  
+}
+#missionSection h2{
+    text-align: center;
+    padding-top:1em;
+    font-size: 2.4em;
+}
+ #traditionalDance{
+    padding: 5px;
+    margin: 5px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+#classicalDance{
+    margin: 5px 2px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#modernDance{
+    margin: 5px 2px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    height: 225px;
+    width: 240px;
+    margin: 5px;
+    background-color: rgba(211, 211, 211, 0.493);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.377);
+    /* border-radius: 7px; */
+    /* align-content: space-around; */
+}
+.card .card-box{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+}
+.card h3{
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+.card .img-box img{
+    height: 165px;
+    width:240px;  
+}
+.card .img-content{
+    text-align: center;  
+}
+
+/* #####sponsorSection styling##### */
+
+#sponsorSection{
+    height: 300px;
+    background-color: rgb(179, 143, 236);
+}
+    
+#sponsorSection h2{
+    font-size: 2.4em;
+    text-align: center;
+    padding-top:1em;
+}
+#sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    /* border: 2px solid green; */
+}
+#sponsors img{
+    height: 165px;
+    width:210px;
+    /* border: 2px solid red; */
+    padding: 5px;
+}
+
+
+
+
+/* #####footer styling##### */
+#footer{
+    text-align: center;
+    background-color: #263238d3;
+    color: #f4f4f4;
+    height: 10rem;
+    width:100vw ;
+    padding: 1rem;
+
+}
+.social-media-links i{
+    
+    margin:1.5rem;
+    color: white; 
+}
+ .social-media-links i:hover{
+    color: gray;
+}
+#footer p{
+    font-size: 1.8em;
+} 
